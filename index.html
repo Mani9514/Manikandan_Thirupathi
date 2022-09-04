@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is cool site site for NFT Marketplace">
+    <link rel="icon" href="./assets/images/bulb.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">  
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" charset="utf-8"></script>
+    <title>BT Marketplace</title>
+</head>
+<body>
+<!--Navigation Bar-->
+<nav>
+    <div class="container">
+        <div class="nav-bar">
+            <div>
+               <a href="#"> <img src="./assets/images/logo.png" alt="logo"></a>
+            </div>
+            <div class="nav-link">
+                <ul class="link">
+                    <li>
+                        <a href="#">Home</a>
+                        <i class="fa-solid fa-chevron-down arrow home-arrow"></i>
+                        <ul class="sub-menu home-sub-menu">
+                            <li><a href="#">Home Variation 1</a></li>
+                            <li><a href="#">Home Variation 2</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Explore</a>
+                        <i class="fa-solid fa-chevron-down arrow explore-arrow"></i>
+                        <ul class="sub-menu explore-sub-menu">
+                            <li><a href="#">Explore 1</a></li>
+                            <li><a href="#">Explore 2</a></li>
+                            <li><a href="#">Featured Drops</a></li>
+                            <li><a href="#">live Auctions</a></li>
+                            <li><a href="#">Collections</a></li>
+                            <li><a href="#">Top Seller</a></li>
+                            <li><a href="#">Top Buyer</a></li>
+                            <li><a href="#">Item Details</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Admin</a>
+                        <i class="fa-solid fa-chevron-down arrow admin-arrow"></i>
+                        <ul class="sub-menu admin-sub-menu">
+                            <li><a href="#">Dashboard</a></li>
+                            <li><a href="#">Live Bids</a></li>
+                            <li><a href="#">My Collection</a></li>
+                            <li><a href="#">My Wallet</a></li>
+                            <li><a href="#">Notifications</a></li>
+                            <li><a href="#">Settings</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Pages</a>
+                        <i class="fa-solid fa-chevron-down arrow pages-arrow"></i>
+                        <ul class="sub-menu pages-sub-menu">
+                            <li><a href="#">Activity</a></li>
+                            <li><a href="#">Ranking</a></li>
+                            <li><a href="#">Create New Items</a></li>
+                            <li><a href="#">Connect Wallet</a></li>
+                            <li><a href="#">Author Profile</a></li>
+
+                            <li class="authentication">
+                                <a href="#">Authentication</a>
+                                <i class="fa-solid fa-chevron-right arrow authentication-arrow"></i>
+                                <ul class="sub-menu authentication-sub-menu">
+                                    <li><a href="#">Register</a></li>
+                                    <li><a href="#">Login</a></li>
+                                    <li><a href="#">Forget Password</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="others">
+                                <a href="#">Others</a>
+                                <i class="fa-solid fa-chevron-right arrow others-arrow"></i>
+                                <ul class="sub-menu others-sub-menu">
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">Coming Soon</a></li>
+                                    <li><a href="#">News Letter</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Terms</a></li>
+                                    <li><a href="#">404</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="help-center">
+                                <a href="#">Help Center</a>
+                                <i class="fa-solid fa-chevron-right arrow help-center-arrow"></i>
+                                <ul class="sub-menu help-center-sub-menu">
+                                    <li><a href="#">Help Home</a></li>
+                                    <li><a href="#">All Questions</a></li>
+                                    <li><a href="#">Question Details</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Help Center</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="search-sec d-flex aling-items-center justify-content-between">
+                <div class="d-flex position-relative align-items-center">
+                    <input type="text" class="form-control" placeholder="Search">
+                    <div class="search-icon position-absolute">
+                        <i class="fa fa-search"></i>
+                    </div>
+                </div>
+                <div class="more-btn">
+                    <a href="#"><i class="fa fa-ellipsis-h"></i></a>
+                </div>
+                <div>
+                    <button>Create</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+
+    <!--Banner Area Section-->
+
+    <div class="banner-area">            
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-12">
+                    <div class="header-content">
+                        <h1>Build an excellent NFTs website with Funto.</h1>
+                        <p>It's crafted with the latest trend of design & coded with all modern approaches.</p>
+                        <div class="btn-section">
+                            <button class="btn-1">Explore Now  <i class="fa fa-arrow-right"></i></button>
+                            <a href="#" class="btn-2"><i class="fa fa-pie-chart"></i> Go Dashboard</a>
+                        </div>
+                    </div>
+               </div>
+               <div class="col-md-6 col-12">
+                   <img src="./assets/images/banner.png" alt="banner">
+               </div>
+            </div>
+        </div>
+    </div>
+    <div class="divider"></div>
+    <div class="container">
+        <div class="border-bottom"></div>
+    </div>
+    <div class="divider"></div>
+
+
+
+
+    <!--Demo Pages Section-->
+    <div class="demo-page">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-12 col-lg-6">
+                    <div class="demo-page-content text-center">
+                        <h2>Demo Pages</h2>
+                        <p>There are 35+ beautiful inner pages, two beautiful home pages for your awesome NFTs websites.</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+       
+        <div class="container">
+            <div class="filter-buttons">
+                <div class="d-flex flex-wrap justify-content-center align-items-center">
+                        <button>All</button>
+                        <button>Home</button>
+                        <button>Dashboard</button>
+                        <button>Inner Pages</button>
+                        <button>Blog</button>
+                        <button>Others</button>
+                </div>
+            </div>
+            <div class="row collection-items">
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card text-center list-items">
+                        <div class="card-body">
+                            <img class="img-rounded" src="./assets/images/home1.png" alt="home-1">
+                            <h5>Home One</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card text-center list-items">
+                        <div class="card-body">
+                            <img class="img-rounded" src="./assets/images/home2.png" alt="home-1">
+                            <h5>Home Two</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card text-center list-items">
+                        <div class="card-body">
+                            <img class="img-rounded" src="./assets/images/explore1.png" alt="home-1">
+                            <h5>Explore One</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card text-center list-items">
+                        <div class="card-body">
+                            <img class="img-rounded" src="./assets/images/explore2.png" alt="home-1">
+                            <h5>Explore Two</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card text-center list-items">
+                        <div class="card-body">
+                            <img class="img-rounded" src="./assets/images/featured.png" alt="home-1">
+                            <h5>Featured Items</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card text-center list-items">
+                        <div class="card-body">
+                            <img class="img-rounded" src="./assets/images/auctions.png" alt="home-1">
+                            <h5>Live Auctions</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card text-center list-items">
+                        <div class="card-body">
+                            <img class="img-rounded" src="./assets/images/collections.png" alt="home-1">
+                            <h5>Collections</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card text-center list-items">
+                        <div class="card-body">
+                            <img class="img-rounded" src="./assets/images/top-seller.png" alt="home-1">
+                            <h5>Top Seller</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card text-center list-items">
+                        <div class="card-body">
+                            <img class="img-rounded" src="./assets/images/top-buyer.png" alt="home-1">
+                            <h5>Top Buyer</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card text-center list-items">
+                        <div class="card-body">
+                            <img class="img-rounded" src="./assets/images/item-details.png" alt="home-1">
+                            <h5>Item Details</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card text-center list-items">
+                        <div class="card-body">
+                            <img class="img-rounded" src="./assets/images/admin.png" alt="home-1">
+                            <h5>Dashboard</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card text-center list-items">
+                        <div class="card-body">
+                            <img class="img-rounded" src="./assets/images/admin-bids.png" alt="home-1">
+                            <h5>Live Bids</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card text-center list-items">
+                        <div class="card-body">
+                            <img class="img-rounded" src="./assets/images/collections.png" alt="home-1">
+                            <h5>My Collection</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card text-center list-items">
+                        <div class="card-body">
+                            <img class="img-rounded" src="./assets/images/wallet.png" alt="home-1">
+                            <h5>My wallet</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card text-center list-items">
+                        <div class="card-body">
+                            <img class="img-rounded" src="./assets/images/admin-notifications.png" alt="home-1">
+                            <h5>Notification</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card text-center list-items">
+                        <div class="card-body">
+                            <img class="img-rounded" src="./assets/images/admin-settings.png" alt="home-1">
+                            <h5>Settings</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card text-center list-items">
+                        <div class="card-body">
+                            <img class="img-rounded" src="./assets/images/activity.png" alt="home-1">
+                            <h5>Activity</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card text-center list-items">
+                        <div class="card-body">
+                            <img class="img-rounded" src="./assets/images/ranking.png" alt="home-1">
+                            <h5>Ranking</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card text-center list-items">
+                        <div class="card-body">
+                            <img class="img-rounded" src="./assets/images/create.png" alt="home-1">
+                            <h5>Create New</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card text-center list-items">
+                        <div class="card-body">
+                            <img class="img-rounded" src="./assets/images/wallet.png" alt="home-1">
+                            <h5>Connect Wallet</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card text-center list-items">
+                        <div class="card-body">
+                            <img class="img-rounded" src="./assets/images/author.png" alt="home-1">
+                            <h5>Author Profile</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card text-center list-items">
+                        <div class="card-body">
+                            <img class="img-rounded" src="./assets/images/login.png" alt="home-1">
+                            <h5>Login</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card text-center list-items">
+                        <div class="card-body">
+                            <img class="img-rounded" src="./assets/images/register.png" alt="home-1">
+                            <h5>Register</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card text-center list-items">
+                        <div class="card-body">
+                            <img class="img-rounded" src="./assets/images/forget.png" alt="home-1">
+                            <h5>Forget Password</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card text-center list-items">
+                        <div class="card-body">
+                            <img class="img-rounded" src="./assets/images/blog.png" alt="home-1">
+                            <h5>Blog</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card text-center list-items">
+                        <div class="card-body">
+                            <img class="img-rounded" src="./assets/images/blog-details.png" alt="home-1">
+                            <h5>Blog Details</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card text-center list-items">
+                        <div class="card-body">
+                            <img class="img-rounded" src="./assets/images/about.png" alt="home-1">
+                            <h5>About Us</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card text-center list-items">
+                        <div class="card-body">
+                            <img class="img-rounded" src="./assets/images/contact.png" alt="home-1">
+                            <h5>Contact</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card text-center list-items">
+                        <div class="card-body">
+                            <img class="img-rounded" src="./assets/images/cs.png" alt="home-1">
+                            <h5>Coming Soon</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card text-center list-items">
+                        <div class="card-body">
+                            <img class="img-rounded" src="./assets/images/newsletter.png" alt="home-1">
+                            <h5>New Letter</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card text-center list-items">
+                        <div class="card-body">
+                            <img class="img-rounded" src="./assets/images/privacy.png" alt="home-1">
+                            <h5>Privacy Policy</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card text-center list-items">
+                        <div class="card-body">
+                            <img class="img-rounded" src="./assets/images/terms.png" alt="home-1">
+                            <h5>Terms</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card text-center list-items">
+                        <div class="card-body">
+                            <img class="img-rounded" src="./assets/images/404.png" alt="home-1">
+                            <h5>404</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card text-center list-items">
+                        <div class="card-body">
+                            <img class="img-rounded" src="./assets/images/help1.png" alt="home-1">
+                            <h5>Help Center</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card text-center list-items">
+                        <div class="card-body">
+                            <img class="img-rounded" src="./assets/images/help2.png" alt="home-1">
+                            <h5>Help Question</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6">
+                    <div class="card text-center list-items">
+                        <div class="card-body">
+                            <img class="img-rounded" src="./assets/images/help3.png" alt="home-1">
+                            <h5>Question Details</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="divider"></div>
+
+
+<!-- Liv Bid Section -->
+<div class="live-bid-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-7">
+                <div class="section-heading d-flex align-items-center">
+                    <div class="spinner-grow text-danger">
+                        <span>.</span>
+                    </div>
+                    <h2 class="mb-0 ms-3" >Live Bid</h2>
+                </div>
+            </div>
+            <div class="col-5 text-end">
+                <button class="view-all-bids-btn">View All Bids</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row g-4 justify-content-center">
+            <div class="col-12 col-lg-4 col-xl-3 col-sm-6">
+                <div class="nft-card card">
+                    <div class="card-body">
+                        <div class="img-wrap">
+                            <img src="./assets/New Section/9.jpg" alt="Fancy Car">
+                            <div class="badge d-flex bg-dark position-absolute">
+                                <p class="mb-0 fz-12">🔥New Bid</p>
+                            </div>
+                            <div class="dropdown position-absolute">
+                                <button class="btn dropdown-btn rounded-pill shadow-sm">
+                                    <i class="fa fa-ellipsis-v"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="row meta-info align-items-center mt-3">
+                            <div class="col-8">
+                               <span class="d-block fz-12">
+                                <i class="fa fa-shopping-bag me-1"></i>
+                                3 Stock Available
+                               </span>
+                            </div>
+                            <div class="col-4 text-end">
+                                <span class="d-block wishlist-btn">
+                                 <i class="fa fa-heart"></i>
+                                </span>
+                             </div>
+                        </div>
+                        <div class="row align-items-center mt-2">
+                            <div class="col-8">
+                                <div class="name-info d-flex align-items-center">
+                                    <div class="author-img position-relative me-2">
+                                            <img class="shadow" src="./assets/New Section/u4.jpg" alt="u4">
+                                            <i class="fa fa-check position-absolute bg-success"></i>
+                                    </div>
+                                    <div class="name-author truncate-card-text">
+                                        <a href="#" class="d-block truncate-card-text">Fancy Car</a> 
+                                        <a href="#" class="d-block fz-12 mt-2">@fancy_car</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="price text-end">
+                                    <span class="fz-12 d-block">
+                                        Current Bid
+                                    </span>
+                                    <h6 class="mb-0">
+                                        0.784 ETH
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="card-btn w-100 mt-4 bg-primary">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-4 col-xl-3 col-sm-6">
+                <div class="nft-card card">
+                    <div class="card-body">
+                        <div class="img-wrap">
+                            <img src="./assets/New Section/10.jpg" alt="Fancy Car">
+                            <div class="badge d-flex bg-dark position-absolute">
+                                <p class="mb-0 fz-12">🔥New Bid</p>
+                            </div>
+                            <div class="dropdown position-absolute">
+                                <button class="btn dropdown-btn rounded-pill shadow-sm">
+                                    <i class="fa fa-ellipsis-v"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="row meta-info align-items-center mt-3">
+                            <div class="col-8">
+                               <span class="d-block fz-12">
+                                <i class="fa fa-shopping-bag me-1"></i>
+                                11 Stock Available
+                               </span>
+                            </div>
+                            <div class="col-4 text-end">
+                                <span class="d-block wishlist-btn">
+                                 <i class="fa fa-heart"></i>
+                                </span>
+                             </div>
+                        </div>
+                        <div class="row align-items-center mt-2">
+                            <div class="col-8">
+                                <div class="name-info d-flex align-items-center">
+                                    <div class="author-img position-relative me-2">
+                                            <img class="shadow" src="./assets/New Section/u1.jpg" alt="u4">
+                                            <i class="fa fa-check position-absolute bg-success"></i>
+                                    </div>
+                                    <div class="name-author truncate-card-text">
+                                        <a href="#" class="d-block truncate-card-text">Animal Playing With Guitar</a> 
+                                        <a href="#" class="d-block fz-12 mt-2">@creative_world</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="price text-end">
+                                    <span class="fz-12 d-block">
+                                        Current Bid
+                                    </span>
+                                    <h6 class="mb-0">
+                                        0.784 ETH
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="card-btn w-100 mt-4 bg-primary">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-4 col-xl-3 col-sm-6">
+                <div class="nft-card card">
+                    <div class="card-body">
+                        <div class="img-wrap">
+                            <img src="./assets/New Section/11.jpg" alt="Fancy Car">
+                            <div class="badge d-flex bg-danger position-absolute">
+                                <p class="mb-0 fz-12">🔥Bid Done</p>
+                            </div>
+                            <div class="dropdown position-absolute">
+                                <button class="btn dropdown-btn rounded-pill shadow-sm">
+                                    <i class="fa fa-ellipsis-v"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="row meta-info align-items-center mt-3">
+                            <div class="col-8">
+                               <span class="d-block fz-12">
+                                <i class="fa fa-shopping-bag me-1"></i>
+                               12 Stock Available
+                               </span>
+                            </div>
+                            <div class="col-4 text-end">
+                                <span class="d-block wishlist-btn">
+                                 <i class="fa fa-heart"></i>
+                                </span>
+                             </div>
+                        </div>
+                        <div class="row align-items-center mt-2">
+                            <div class="col-8">
+                                <div class="name-info d-flex align-items-center">
+                                    <div class="author-img position-relative me-2">
+                                            <img class="shadow" src="./assets/New Section/u3.jpg" alt="u4">
+                                            <i class="fa fa-check position-absolute bg-success"></i>
+                                    </div>
+                                    <div class="name-author truncate-card-text">
+                                        <a href="#" class="d-block truncate-card-text">Halloween #471</a> 
+                                        <a href="#" class="d-block fz-12 mt-2">@creative_world</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="price text-end">
+                                    <span class="fz-12 d-block">
+                                        Current Bid
+                                    </span>
+                                    <h6 class="mb-0">
+                                        0.524 ETH
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="card-btn w-100 mt-4 bg-primary">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-4 col-xl-3 col-sm-6">
+                <div class="nft-card card">
+                    <div class="card-body">
+                        <div class="img-wrap">
+                            <img src="./assets/New Section/12.jpg" alt="Fancy Car">
+                            <div class="badge d-flex bg-danger position-absolute">
+                                <p class="mb-0 fz-12">🔥 Hot Bid</p>
+                            </div>
+                            <div class="dropdown position-absolute">
+                                <button class="btn dropdown-btn rounded-pill shadow-sm">
+                                    <i class="fa fa-ellipsis-v"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="row meta-info align-items-center mt-3">
+                            <div class="col-8">
+                               <span class="d-block fz-12">
+                                <i class="fa fa-shopping-bag me-1"></i>
+                                40 Stock Available
+                               </span>
+                            </div>
+                            <div class="col-4 text-end">
+                                <span class="d-block wishlist-btn">
+                                 <i class="fa fa-heart"></i>
+                                </span>
+                             </div>
+                        </div>
+                        <div class="row align-items-center mt-2">
+                            <div class="col-8">
+                                <div class="name-info d-flex align-items-center">
+                                    <div class="author-img position-relative me-2">
+                                            <img class="shadow" src="./assets/New Section/u2.jpg" alt="u2">
+                                            <i class="fa fa-check position-absolute bg-success"></i>
+                                    </div>
+                                    <div class="name-author truncate-card-text">
+                                        <a href="#" class="d-block truncate-card-text">Vigor Dance</a> 
+                                        <a href="#" class="d-block fz-12 mt-2">@fancy_nft</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="price text-end">
+                                    <span class="fz-12 d-block">
+                                        Current Bid
+                                    </span>
+                                    <h6 class="mb-0">
+                                        0.524 ETH
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="card-btn w-100 mt-4 bg-primary">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="divider"></div>
+
+
+<!--Buy Now Animate Section-->
+    <div class="animation-buy-now">
+        <div class="container">
+            <div class="background-animate">
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-9 col-md-8">
+                        <h2>
+                            Beautifully designed, SEO-friendly, and easy to use. Create your NFTs website today!
+                        </h2>
+                    </div>
+                    <div class="col-12 col-lg-3 col-md-4 ">
+                        <div class="btn-right">
+                            <a class="btn btn-warning user-btn1 rounded-pill" href="#">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="divider"></div>
+
+<!--About Section-->
+<div class="about-section">
+    <div class="container">
+        <div class="row align-items-center align-middle mb-5">
+            <div class="col-12 col-lg-3 col-md-6">
+                <div class="card about-card">
+                    <div class="card-body">
+                        <div class="icon bg-info">
+                            <img src="./assets/images/bootstrap.png" alt="bootstrap">
+                        </div>
+                        <h5>Bootstrap 5.1.3</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-6">
+                <div class="card about-card">
+                    <div class="card-body">
+                        <div class="icon bg-black">
+                            <img src="./assets/images/tool.png" alt="bootstrap">
+                        </div>
+                        <h5>Modern Design</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-6">
+                <div class="card about-card">
+                    <div class="card-body">
+                        <div class="icon bg-success">
+                            <img src="./assets/images/js.png" alt="bootstrap">
+                        </div>
+                        <h5>Vannila Javascript</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-6"> 
+                <div class="card about-card">
+                    <div class="card-body">
+                        <div class="icon bg-warning">
+                            <img src="./assets/images/dashboard.png" alt="bootstrap">
+                        </div>
+                        <h5>Dashboard</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-6">
+                <div class="card about-card">
+                    <div class="card-body">
+                        <div class="icon bg-dark">
+                            <img src="./assets/images/sass.png" alt="bootstrap">
+                        </div>
+                        <h5>SasS</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-6">
+                <div class="card about-card">
+                    <div class="card-body">
+                        <div class="icon bg-primary">
+                            <img src="./assets/images/responsive-design.png" alt="bootstrap">
+                        </div>
+                        <h5>Smart Responsive</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-6">
+                <div class="card about-card">
+                    <div class="card-body">
+                        <div class="icon bg-danger">
+                            <img src="./assets/images/pug.png" alt="bootstrap">
+                        </div>
+                        <h5>PUG</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-6">
+                <div class="card about-card">
+                    <div class="card-body">
+                        <div class="icon bg-warning">
+                            <img src="./assets/images/bulb.png" alt="bootstrap">
+                        </div>
+                        <h5>Light Mode</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="divider"></div>
+<div class="dark-mode-wrapper bg-primary">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+            <h5 class="text-white m-0"> Light Mode is Available!</h5>
+        </div>
+    </div>
+</div>
+<div class="divider"></div>
+
+<!--Account Creation Section-->
+<div class="account-section">
+    <div class="container">
+        <div class="row g-4 g-xxl-5 justify-content-center align-items-center">
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div class="single-card card bg-gray">
+                    <div class="card-body text-center p-4">
+                        <img src="./assets/New Section/4.png" alt="1" class="mb-2 mx-auto">
+                        <h5 class="mb-3">Create your account & add wallet</h5>
+                        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="step-number">1</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div class="single-card card bg-gray">
+                    <div class="card-body text-center p-4">
+                        <img src="./assets/New Section/3.png" alt="1" class="mb-2 mx-auto">
+                        <h5 class="mb-3">Get approval from our review team</h5>
+                        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="step-number">2</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div class="single-card card bg-gray">
+                    <div class="card-body text-center p-4">
+                        <img src="./assets/New Section/2.png" alt="1" class="mb-2 mx-auto">
+                        <h5 class="mb-3">Create your account & add wallet</h5>
+                        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="step-number">3</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-12 col-sm-6 col-xl-3">
+                <div class="single-card card bg-gray">
+                    <div class="card-body text-center p-4">
+                        <img src="./assets/New Section/1.png" alt="1" class="mb-2 mx-auto">
+                        <h5 class="mb-3">Create your account & add wallet</h5>
+                        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="step-number">4</div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div class="divider"></div>
+<!--Footer Section-->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-5">
+                    <div class="footer-widget mb-5 me-5 pe-5">
+                        <div class="mb-4">
+                            <a href="#"> 
+                                <img src="./assets/images/logo.png" alt="">
+                            </a>
+                        </div>
+                            <p>It's crafted with the latest trend of design & coded with all modern approaches.</p>
+                            <p><a href=":tel">Call: +123 456 789</a><br>
+                                <a href="mailto:#">help@example.com</a>
+                            </p>
+                        <h5 class="mt-4 mb-3">Join the Community</h5>
+                        <div class="social-wrapper">
+                            <div class="icon facebook">
+                                <p class="tool-tip">Facebook</p>
+                                <a href="#"><img src="./assets/images/icons8-facebook.svg" alt=""></a>
+                            </div>
+                            <div class="icon instagram">
+                                <p class="tool-tip">Instagram</p>
+                                <a href="#"><img src="./assets/images/icons8-instagram.svg" alt=""></a>
+                            </div>
+                            <div class="icon twitter">
+                                <p class="tool-tip">Twitter</p>
+                                <a href="#"><img src="./assets/images/icons8-twitter.svg" alt=""></a>
+                            </div>
+                            <div class="icon slack">
+                                <p class="tool-tip">Slack</p>
+                                <a href="#"><img src="./assets/images/icons8-slack.svg" alt=""></a>
+                            </div>
+                            <div class="icon twitter">
+                                <p class="tool-tip">YouTube</p>
+                                <a href="#"><img src="./assets/images/icons8-player.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="submit-form mt-5">
+                                <form action="#" class="d-flex align-items-stretch">
+                                    <input class="form-control" type="email" placeholder="Enter email">
+                                    <button class="btn btn-warning">Subscribe</button>
+                                </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-7">
+                    <div class="row g-4">
+                        <div class="col-6 col-sm-4">
+                        <div class="footer-section">
+                                <h5>Explore</h5>
+                                <ul>
+                                    <li><a href="#">Featured Drops</a></li>
+                                    <li><a href="#">Live Auctions</a></li>
+                                    <li><a href="#">Collections</a></li>
+                                    <li><a href="#">Top Seller</a></li>
+                                    <li><a href="#">Top Buyer</a></li>
+                                    <li><a href="#">Item Details</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-4">
+                            <div class="footer-section">
+                                <h5>Marketplace</h5>
+                                <ul>
+                                    <li><a href="#">Art</a></li>
+                                    <li><a href="#">Cards</a></li>
+                                    <li><a href="#">Collectibles</a></li>
+                                    <li><a href="#">Domain</a></li>
+                                    <li><a href="#">Photos</a></li>
+                                    <li><a href="#">Sports</a></li>
+                                    <li><a href="#">Videos</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-4">
+                            <div class="footer-section">
+                                <h5>Company</h5>
+                                <ul>
+                                    <li><a href="#">Forum</a></li>
+                                    <li><a href="#">Licenses</a></li>
+                                    <li><a href="#">Careers</a></li>
+                                    <li><a href="#">Conditions</a></li>
+                                    <li><a href="#">Privacy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+<div class="border-top"></div>
+        <div class="container">
+            <div class="copyrights-section">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-12 col-md-12 col-lg-7">
+                        <div>
+                            <p>2022 &copy All rights reserved by <a href="https://blockchiantechs.io">Blockchain Techs</a></p>
+                        </div>
+                    </div> 
+                    <div class="col-12 col-md-12 col-lg-5">
+                        <div class="terms d-flex justify-content-end">
+                            <a href="#">Privay Policy</a>
+                            <a href="#">Terms & Conditions</a>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="gotop-btn">
+        <button id="button">
+                <i class="fa fa-arrow-up"></i>
+        </buttton>
+    </div>
+   <!--Scripts for Nav Bar-->
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var nav = document.querySelector("nav");
+            nav.classList.toggle("sticky", window.scrollY > 0)
+        });
+    </script>
+
+    <!--Script For Goto Top Button-->
+    <script type="text/javascript">
+        var btn = $('#button');
+        $(window).scroll(function(){
+            if($(window).scrollTop() > 600){
+                btn.addClass('show');
+            }
+            else{
+                btn.removeClass('show');
+            }
+        });
+        btn.on('click', function(f){
+            f.preventDefault();
+            $('html, body').animate({scrollTop:0}, '300');
+        });
+    </script>
+</body>
+</html>
